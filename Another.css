@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+    display: flex;
+
+}
+*{
+    box-sizing: border-box;
+}
+#wrapper {
+    height:500px;
+    width:600px;
+    background-color: turquoise;
+    margin:30px auto;
+    border-radius: 8px;
+    padding:25px;
+    box-shadow:2px 2px 3px black;
+    min-width: 450px;
+    max-width: 650px;
+}
+h1{
+    min-height: 50px;
+    background-color: teal;
+    border-radius: 8px;
+    color:white;
+    padding:15px;
+    float:left;
+    width: 100%;
+    font-size:25px;
+}
+button{
+    margin:20px;
+    padding:10px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: wheat;
+}
+#options button:active{
+    background-color: tomato;
+}
+@media (min-width:700px){
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+}
